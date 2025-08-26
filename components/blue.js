@@ -318,8 +318,7 @@ const Blue = (props) => {
 
 Blue.defaultProps = {
   text1: undefined,
-  imageSrc1:
-    '/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%20234.svg',
+  imageSrc1: '/ICONS/29.svg',
   vector96Alt: 'Vector968419',
   imageAlt1: 'image',
   text3: undefined,

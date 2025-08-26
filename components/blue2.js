@@ -69,17 +69,17 @@ const Blue2 = (props) => {
                 y2="0"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0%" stop-color="#303030"></stop>
-                <stop offset="100%" stop-color="#4EC8ED"></stop>
+                <stop offset="0%" stopColor="#303030"></stop>
+                <stop offset="100%" stopColor="#4EC8ED"></stop>
               </linearGradient>
             </defs>
             <path
               d="M0 10 H110"
               fill="none"
               stroke="url(#grad23)"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <div className="blue2-container4">
@@ -347,8 +347,7 @@ Blue2.defaultProps = {
   text: undefined,
   text2: undefined,
   text1: undefined,
-  imageSrc:
-    '/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%20234.svg',
+  imageSrc: '/ICONS/29.svg',
 }
 
 Blue2.propTypes = {

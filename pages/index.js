@@ -126,9 +126,9 @@ const Frame1196 = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#ffffff"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -143,9 +143,9 @@ const Frame1196 = (props) => {
                   d="M10 0 V110"
                   fill="none"
                   stroke="#ffffff"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -160,9 +160,9 @@ const Frame1196 = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#FFFFFF"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -177,9 +177,9 @@ const Frame1196 = (props) => {
                   d="M0 10 H330"
                   fill="none"
                   stroke="#FFFFFF"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
@@ -338,7 +338,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина зависает на программе"
+                alt="Стиральная машина зависает на п��ограмме"
                 src="/problems 2/61-300h.webp"
                 loading="eager"
                 className="frame1196-image20"
@@ -386,7 +386,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина не набирает воду"
+                alt="Стиральная м��шина не набирает воду"
                 src="/problems/8-300h.webp"
                 loading="eager"
                 className="frame1196-image22"
@@ -410,7 +410,7 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Не открывается дверца стиральной машины"
+                alt="Не открывается дверца стираль��ой машины"
                 src="/problems 2/91-300h.webp"
                 loading="eager"
                 className="frame1196-image23"
@@ -418,7 +418,7 @@ const Frame1196 = (props) => {
             </div>
             <div className="frame1196-container122">
               <h3 className="frame1196-text121">
-                Стиральная машина не крутит барабан
+                Сти��альная машина не крутит барабан
               </h3>
               <div className="frame1196-arrow19">
                 <svg
@@ -476,8 +476,8 @@ const Frame1196 = (props) => {
                 cy="5"
                 fill="#4EC8ED"
                 stroke="#303030"
-                stroke-width="1"
-                vector-effect="non-scaling-stroke"
+                strokeWidth="1"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -494,8 +494,8 @@ const Frame1196 = (props) => {
                 cy="5"
                 fill="#4EC8ED"
                 stroke="#303030"
-                stroke-width="1"
-                vector-effect="non-scaling-stroke"
+                strokeWidth="1"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -512,8 +512,8 @@ const Frame1196 = (props) => {
                 cy="5"
                 fill="#4EC8ED"
                 stroke="#303030"
-                stroke-width="1"
-                vector-effect="non-scaling-stroke"
+                strokeWidth="1"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -530,8 +530,8 @@ const Frame1196 = (props) => {
                 cy="5"
                 fill="#4EC8ED"
                 stroke="#303030"
-                stroke-width="1"
-                vector-effect="non-scaling-stroke"
+                strokeWidth="1"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <div className="frame1196-container125">
@@ -560,17 +560,17 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <p className="frame1196-text134">
@@ -614,17 +614,17 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <p className="frame1196-text136">
@@ -637,7 +637,7 @@ const Frame1196 = (props) => {
               </div>
               <img
                 alt='""'
-                src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%2011.svg"
+                src="/ICONS/25.svg"
                 loading="lazy"
                 className="frame1196-image26"
               />
@@ -668,17 +668,17 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <p className="frame1196-text138">
@@ -708,9 +708,9 @@ const Frame1196 = (props) => {
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -725,9 +725,9 @@ const Frame1196 = (props) => {
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -742,9 +742,9 @@ const Frame1196 = (props) => {
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -759,9 +759,9 @@ const Frame1196 = (props) => {
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
           </div>
@@ -805,23 +805,23 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <div className="frame1196-container136">
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%20234.svg"
+                    src="/ICONS/29.svg"
                     className="frame1196-image28"
                   />
                   <span className="frame1196-text146">Вызвать мастера</span>
@@ -856,23 +856,23 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <div className="frame1196-container140">
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%20234.svg"
+                    src="/ICONS/29.svg"
                     className="frame1196-image29"
                   />
                   <span className="frame1196-text150">Вызвать мастера</span>
@@ -907,23 +907,23 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <div className="frame1196-container144">
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%20234.svg"
+                    src="/ICONS/29.svg"
                     className="frame1196-image30"
                   />
                   <span className="frame1196-text154">Вызвать мастера</span>
@@ -1602,23 +1602,23 @@ const Frame1196 = (props) => {
                       y2="0"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0%" stop-color="#303030"></stop>
-                      <stop offset="100%" stop-color="#4EC8ED"></stop>
+                      <stop offset="0%" stopColor="#303030"></stop>
+                      <stop offset="100%" stopColor="#4EC8ED"></stop>
                     </linearGradient>
                   </defs>
                   <path
                     d="M0 10 H110"
                     fill="none"
                     stroke="url(#grad23)"
-                    stroke-width="0.5"
-                    vector-effect="non-scaling-stroke"
-                    stroke-dasharray="11 11"
+                    strokeWidth="0.5"
+                    vectorEffect="non-scaling-stroke"
+                    strokeDasharray="11 11"
                   ></path>
                 </svg>
                 <div className="frame1196-container148">
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%20234.svg"
+                    src="/ICONS/29.svg"
                     className="frame1196-image31"
                   />
                   <span className="frame1196-text214">Вызвать мастера</span>
@@ -1638,7 +1638,7 @@ const Frame1196 = (props) => {
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -1654,7 +1654,7 @@ const Frame1196 = (props) => {
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -1670,7 +1670,7 @@ const Frame1196 = (props) => {
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -1686,7 +1686,7 @@ const Frame1196 = (props) => {
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -1701,9 +1701,9 @@ const Frame1196 = (props) => {
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -1718,9 +1718,9 @@ const Frame1196 = (props) => {
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -1735,9 +1735,9 @@ const Frame1196 = (props) => {
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -1752,9 +1752,9 @@ const Frame1196 = (props) => {
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
           </section>
@@ -2032,8 +2032,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2050,8 +2050,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2068,8 +2068,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2086,8 +2086,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <div className="frame1196-container164">
@@ -2117,23 +2117,23 @@ to {transform: translateX(-2620px);}}
                           y2="0"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset="0%" stop-color="#303030"></stop>
-                          <stop offset="100%" stop-color="#4EC8ED"></stop>
+                          <stop offset="0%" stopColor="#303030"></stop>
+                          <stop offset="100%" stopColor="#4EC8ED"></stop>
                         </linearGradient>
                       </defs>
                       <path
                         d="M0 10 H110"
                         fill="none"
                         stroke="url(#grad12)"
-                        stroke-width="1"
-                        vector-effect="non-scaling-stroke"
-                        stroke-dasharray="11 11"
+                        strokeWidth="1"
+                        vectorEffect="non-scaling-stroke"
+                        strokeDasharray="11 11"
                       ></path>
                     </svg>
                   </div>
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%202.svg"
+                    src="/ICONS/6.svg"
                     loading="lazy"
                     className="frame1196-image53"
                   />
@@ -2158,9 +2158,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2175,9 +2175,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2192,9 +2192,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2209,9 +2209,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
@@ -2230,8 +2230,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2248,8 +2248,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2266,8 +2266,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2284,8 +2284,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <div className="frame1196-container168">
@@ -2315,23 +2315,23 @@ to {transform: translateX(-2620px);}}
                           y2="0"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset="0%" stop-color="#303030"></stop>
-                          <stop offset="100%" stop-color="#4EC8ED"></stop>
+                          <stop offset="0%" stopColor="#303030"></stop>
+                          <stop offset="100%" stopColor="#4EC8ED"></stop>
                         </linearGradient>
                       </defs>
                       <path
                         d="M0 10 H110"
                         fill="none"
                         stroke="url(#grad12)"
-                        stroke-width="1"
-                        vector-effect="non-scaling-stroke"
-                        stroke-dasharray="11 11"
+                        strokeWidth="1"
+                        vectorEffect="non-scaling-stroke"
+                        strokeDasharray="11 11"
                       ></path>
                     </svg>
                   </div>
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%2042.svg"
+                    src="/ICONS/28.svg"
                     loading="lazy"
                     className="frame1196-image54"
                   />
@@ -2356,9 +2356,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2373,9 +2373,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2390,9 +2390,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2407,9 +2407,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
@@ -2428,8 +2428,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2446,8 +2446,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2464,8 +2464,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2482,8 +2482,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <div className="frame1196-container172">
@@ -2513,23 +2513,23 @@ to {transform: translateX(-2620px);}}
                           y2="0"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset="0%" stop-color="#303030"></stop>
-                          <stop offset="100%" stop-color="#4EC8ED"></stop>
+                          <stop offset="0%" stopColor="#303030"></stop>
+                          <stop offset="100%" stopColor="#4EC8ED"></stop>
                         </linearGradient>
                       </defs>
                       <path
                         d="M0 10 H110"
                         fill="none"
                         stroke="url(#grad12)"
-                        stroke-width="1"
-                        vector-effect="non-scaling-stroke"
-                        stroke-dasharray="11 11"
+                        strokeWidth="1"
+                        vectorEffect="non-scaling-stroke"
+                        strokeDasharray="11 11"
                       ></path>
                     </svg>
                   </div>
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%205.svg"
+                    src="/ICONS/23.svg"
                     loading="lazy"
                     className="frame1196-image55"
                   />
@@ -2554,9 +2554,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2571,9 +2571,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2588,9 +2588,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2605,9 +2605,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
@@ -2626,8 +2626,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2644,8 +2644,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2662,8 +2662,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2680,8 +2680,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <div className="frame1196-container176">
@@ -2711,17 +2711,17 @@ to {transform: translateX(-2620px);}}
                           y2="0"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset="0%" stop-color="#303030"></stop>
-                          <stop offset="100%" stop-color="#4EC8ED"></stop>
+                          <stop offset="0%" stopColor="#303030"></stop>
+                          <stop offset="100%" stopColor="#4EC8ED"></stop>
                         </linearGradient>
                       </defs>
                       <path
                         d="M0 10 H110"
                         fill="none"
                         stroke="url(#grad12)"
-                        stroke-width="1"
-                        vector-effect="non-scaling-stroke"
-                        stroke-dasharray="11 11"
+                        strokeWidth="1"
+                        vectorEffect="non-scaling-stroke"
+                        strokeDasharray="11 11"
                       ></path>
                     </svg>
                   </div>
@@ -2752,9 +2752,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2769,9 +2769,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2786,9 +2786,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2803,9 +2803,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
@@ -2824,8 +2824,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2842,8 +2842,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2860,8 +2860,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <svg
@@ -2878,8 +2878,8 @@ to {transform: translateX(-2620px);}}
                   cy="5"
                   fill="#4EC8ED"
                   stroke="#303030"
-                  stroke-width="1"
-                  vector-effect="non-scaling-stroke"
+                  strokeWidth="1"
+                  vectorEffect="non-scaling-stroke"
                 ></circle>
               </svg>
               <div className="frame1196-container180">
@@ -2909,23 +2909,23 @@ to {transform: translateX(-2620px);}}
                           y2="0"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop offset="0%" stop-color="#303030"></stop>
-                          <stop offset="100%" stop-color="#4EC8ED"></stop>
+                          <stop offset="0%" stopColor="#303030"></stop>
+                          <stop offset="100%" stopColor="#4EC8ED"></stop>
                         </linearGradient>
                       </defs>
                       <path
                         d="M0 10 H110"
                         fill="none"
                         stroke="url(#grad12)"
-                        stroke-width="1"
-                        vector-effect="non-scaling-stroke"
-                        stroke-dasharray="11 11"
+                        strokeWidth="1"
+                        vectorEffect="non-scaling-stroke"
+                        strokeDasharray="11 11"
                       ></path>
                     </svg>
                   </div>
                   <img
                     alt="image"
-                    src="/ICONS/%C3%B0%C2%A0%C3%B0%C2%B5%C3%B1%C2%81%C3%B1%C2%83%C3%B1%C2%80%C3%B1%C2%81%2031.svg"
+                    src="/ICONS/26.svg"
                     loading="lazy"
                     className="frame1196-image57"
                   />
@@ -2950,9 +2950,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2967,9 +2967,9 @@ to {transform: translateX(-2620px);}}
                   d="M10 0 V110"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -2984,9 +2984,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
               <svg
@@ -3001,9 +3001,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
@@ -3032,7 +3032,7 @@ to {transform: translateX(-2620px);}}
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -3048,7 +3048,7 @@ to {transform: translateX(-2620px);}}
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -3064,7 +3064,7 @@ to {transform: translateX(-2620px);}}
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -3080,7 +3080,7 @@ to {transform: translateX(-2620px);}}
               cx="5"
               cy="10"
               fill="#606060"
-              vector-effect="non-scaling-stroke"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -3095,9 +3095,9 @@ to {transform: translateX(-2620px);}}
               d="M0 10 H330"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -3112,9 +3112,9 @@ to {transform: translateX(-2620px);}}
               d="M0 10 H330"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -3129,9 +3129,9 @@ to {transform: translateX(-2620px);}}
               d="M10 0 V110"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <svg
@@ -3146,9 +3146,9 @@ to {transform: translateX(-2620px);}}
               d="M10 0 V110"
               fill="none"
               stroke="#000000"
-              stroke-width="0.5"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="0.5"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
           </svg>
           <div className="frame1196-nashi-raboti">
@@ -3267,9 +3267,9 @@ to {transform: translateX(-2620px);}}
               d="M0 105 H395 V10"
               fill="none"
               stroke="#303030"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
             <circle
               r="7"
@@ -3277,8 +3277,8 @@ to {transform: translateX(-2620px);}}
               cy="10"
               fill="#4EC8ED"
               stroke="#303030"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -3293,9 +3293,9 @@ to {transform: translateX(-2620px);}}
               d="M0 105 H197.5 V10"
               fill="none"
               stroke="#000000"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
             <circle
               r="7"
@@ -3303,8 +3303,8 @@ to {transform: translateX(-2620px);}}
               cy="10"
               fill="#4EC8ED"
               stroke="#303030"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
         </div>
@@ -3322,9 +3322,9 @@ to {transform: translateX(-2620px);}}
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </div>
@@ -3359,9 +3359,9 @@ to {transform: translateX(-2620px);}}
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </div>
@@ -3396,9 +3396,9 @@ to {transform: translateX(-2620px);}}
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </div>
@@ -3433,9 +3433,9 @@ to {transform: translateX(-2620px);}}
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </div>
@@ -3470,9 +3470,9 @@ to {transform: translateX(-2620px);}}
                     d="M6 12h6m6 0h-6m0 0V6m0 6v6"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   ></path>
                 </svg>
               </div>
@@ -3508,9 +3508,9 @@ to {transform: translateX(-2620px);}}
               y1="0"
               y2="550"
               stroke="#303030"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></line>
           </svg>
         </div>
@@ -3527,9 +3527,9 @@ to {transform: translateX(-2620px);}}
               d="M0 10 H395 V73.33"
               fill="none"
               stroke="#000000"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
             <circle
               r="7"
@@ -3537,8 +3537,8 @@ to {transform: translateX(-2620px);}}
               cy="73.33"
               fill="#4EC8ED"
               stroke="#303030"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <svg
@@ -3553,9 +3553,9 @@ to {transform: translateX(-2620px);}}
               d="M0 10 H197.5 V73.33"
               fill="none"
               stroke="#000000"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
-              stroke-dasharray="11 11"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
+              strokeDasharray="11 11"
             ></path>
             <circle
               r="7"
@@ -3563,8 +3563,8 @@ to {transform: translateX(-2620px);}}
               cy="73.33"
               fill="#4EC8ED"
               stroke="#303030"
-              stroke-width="1"
-              vector-effect="non-scaling-stroke"
+              strokeWidth="1"
+              vectorEffect="non-scaling-stroke"
             ></circle>
           </svg>
           <strong className="frame1196-text249">
@@ -3805,9 +3805,9 @@ to {transform: translateX(-2620px);}}
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <div className="frame1196-frame10711">
@@ -3839,9 +3839,9 @@ to {transform: translateX(-2620px);}}
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -3856,9 +3856,9 @@ to {transform: translateX(-2620px);}}
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -3873,9 +3873,9 @@ to {transform: translateX(-2620px);}}
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -3891,7 +3891,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -3907,7 +3907,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -3923,7 +3923,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -3939,7 +3939,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
           </article>
@@ -3956,9 +3956,9 @@ to {transform: translateX(-2620px);}}
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <div className="frame1196-frame10712">
@@ -3993,9 +3993,9 @@ to {transform: translateX(-2620px);}}
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -4010,9 +4010,9 @@ to {transform: translateX(-2620px);}}
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -4027,9 +4027,9 @@ to {transform: translateX(-2620px);}}
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -4045,7 +4045,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -4061,7 +4061,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -4077,7 +4077,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -4093,7 +4093,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
           </article>
@@ -4110,9 +4110,9 @@ to {transform: translateX(-2620px);}}
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <div className="frame1196-frame10713">
@@ -4141,9 +4141,9 @@ to {transform: translateX(-2620px);}}
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -4158,9 +4158,9 @@ to {transform: translateX(-2620px);}}
                 d="M10 0 V110"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -4175,9 +4175,9 @@ to {transform: translateX(-2620px);}}
                 d="M0 10 H330"
                 fill="none"
                 stroke="#000000"
-                stroke-width="0.5"
-                vector-effect="non-scaling-stroke"
-                stroke-dasharray="11 11"
+                strokeWidth="0.5"
+                vectorEffect="non-scaling-stroke"
+                strokeDasharray="11 11"
               ></path>
             </svg>
             <svg
@@ -4193,7 +4193,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -4209,7 +4209,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -4225,7 +4225,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
             <svg
@@ -4241,7 +4241,7 @@ to {transform: translateX(-2620px);}}
                 cx="5"
                 cy="10"
                 fill="#606060"
-                vector-effect="non-scaling-stroke"
+                vectorEffect="non-scaling-stroke"
               ></circle>
             </svg>
           </article>
@@ -4316,9 +4316,9 @@ to {transform: translateX(-2620px);}}
                   d="M0 10 H330"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="0.5"
-                  vector-effect="non-scaling-stroke"
-                  stroke-dasharray="11 11"
+                  strokeWidth="0.5"
+                  vectorEffect="non-scaling-stroke"
+                  strokeDasharray="11 11"
                 ></path>
               </svg>
             </div>
