@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page2 - Pesky Trusty Pony</title>
+    <meta property="og:title" content="Page2 - Pesky Trusty Pony" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./2.css" rel="stylesheet" />
+
+      <div class="page2-container10">
+        <header class="page2-header"></header>
+        <main class="page2main">
+          <div class="page2-left-main-box">
+            <div class="page2-headertextwashermachine">
+              <img
+                alt="image"
+                src="public/group%20385-200h.png"
+                class="page2-image1"
+              />
+              <h1 class="page2-text10">
+                <span>У стиральной машины не открывается дверца –</span>
+                <span class="page2-text12">в чем причина?</span>
+                <br class="page2-text13" />
+              </h1>
+            </div>
+            <section class="page2-container11">
+              <svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon10"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon12"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon14"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon16"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle>
+              </svg>
+              <strong class="page2-text14">
+                <span>Не открывается дверца:</span>
+                <br />
+              </strong>
+              <ul class="page2-ul list">
+                <li class="page2-li1 list-item ge">
+                  <img
+                    alt="Vector8669"
+                    src="public/external/vector8669-r6fr.svg"
+                    class="page2-vector1"
+                  />
+                  <a href="#1" class="page2-link1">
+                    1. Блокировка «Детский замок».
+                  </a>
+                </li>
+                <li class="page2-li2 list-item">
+                  <img
+                    alt="Vector8669"
+                    src="public/external/vector8669-r6fr.svg"
+                    class="page2-vector2"
+                  />
+                  <a href="#2" class="page2-link2 ge">
+                    2. Остатки воды в баке или незавершённый цикл
+                  </a>
+                </li>
+                <li class="page2-li3 list-item">
+                  <img
+                    alt="Vector8669"
+                    src="public/external/vector8669-r6fr.svg"
+                    class="page2-vector3"
+                  />
+                  <a href="#3" class="page2-link3">
+                    3. Засор в сливной системе или неисправность датчика уровня
+                    (прессостат).
+                  </a>
+                </li>
+                <li class="page2-li4 list-item">
+                  <img
+                    alt="Vector8669"
+                    src="public/external/vector8669-r6fr.svg"
+                    class="page2-vector4"
+                  />
+                  <a href="#4" class="page2-link4">
+                    4. Сбой электроники или отключение питания.
+                  </a>
+                </li>
+                <li class="page2-li5 list-item">
+                  <img
+                    alt="Vector8669"
+                    src="public/external/vector8669-r6fr.svg"
+                    class="page2-vector5"
+                  />
+                  <a href="#5" class="page2-link5">
+                    5. Механическая поломка замка или ручки.
+                  </a>
+                </li>
+              </ul>
+              <svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page2-icon18"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page2-icon20"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page2-icon22"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page2-icon24"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+            </section>
+            <div class="page2-container12">
+              <h4 class="page2-text17">
+                <span>Основные возможные причины:</span>
+                <br />
+              </h4>
+            </div>
+            <section id="1" class="page2-firstproblem">
+              <div class="page2-container13 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">1. Блокировка «Детский замок».</h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page2-icon26"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page2-container14">
+                <figure class="page2-container15">
+                  <img
+                    alt="ребенок и стиральная машина"
+                    src="public/9/image%203823162-900w.webp"
+                    class="page2-image38230521"
+                  />
+                </figure>
+                <p class="vicetext">
+                  Многие модели оснащены функцией «Child Lock», которая
+                  предотвращает случайное открытие люка во время работы. Если
+                  эта блокировка активна, дверца не откроется, и на панели
+                  обычно горит соответствующая пиктограмма. В таком случае нужно
+                  отключить функцию в соответствии с инструкцией к вашей модели
+                  — не пытайтесь тянуть дверцу силой, сначала снимите защиту.
+                </p>
+              </div>
+            </section>
+            <section id="2" class="page2-secondproblem">
+              <div class="page2-container16 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">
+                  2. Остатки воды в баке или незавершённый цикл
+                </h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page2-icon28"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page2-container17">
+                <figure class="page2-container18">
+                  <img
+                    alt="вещи в барабане стиралки"
+                    src="public/9/image%203823050%20(1)-900w.webp"
+                    loading="lazy"
+                    class="page2-image38230522"
+                  />
+                </figure>
+                <p class="vicetext">
+                  Машина не разблокирует люк, пока в баке остаётся вода, это
+                  предохраняет от подтопления. Если цикл был прерван или не
+                  завершился, в барабане может остаться вода и блокировка не
+                  снимется даже после звукового сигнала об окончании. В такой
+                  ситуации попробуйте восстановить нормальную процедуру слива
+                  или дождаться автоматического завершения цикла; не дергайте
+                  дверцу насильно.
+                </p>
+              </div>
+            </section>
+            <section id="3" class="page2-fourproblem">
+              <div class="page2-container19 zagolovkiskorobkoy">
+                <h3 class="page2-text24 zagolovki2">
+                  3. Засор в сливной системе или неисправность датчика уровня
+                  (прессостат).
+                </h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page2-icon30"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page2-container20">
+                <figure class="page2-container21">
+                  <img
+                    alt="прессостат"
+                    src="public/NE GREET/image%2038230334-900w.webp"
+                    loading="lazy"
+                    class="page2-image38230523"
+                  />
+                  <span class="page2-text25">Прессостат</span>
+                </figure>
+                <p class="vicetext">
+                  Если слив заблокирован — засорился фильтр, дренажный шланг или
+                  сифон — вода остаётся в баке и люк удерживается запертым.
+                  Аналогично, при поломке датчика уровня система может «думать»,
+                  что вода есть, даже если её визуально нет, и не снимать
+                  блокировку. В таких случаях необходима проверка и очистка
+                  сливного тракта или диагностика датчика
+                </p>
+              </div>
+            </section>
+            <section id="4" class="page2-fiveproblem1">
+              <div class="page2-container22 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">
+                  4. Сбой электроники или отключение питания.
+                </h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page2-icon32"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page2-container23">
+                <figure class="page2-container24">
+                  <img
+                    alt="модуль управления"
+                    src="public/image%203823045-900w.webp"
+                    loading="lazy"
+                    class="page2-image38230524"
+                  />
+                  <span class="page2-text28">
+                    <span>Модуль управления</span>
+                    <br />
+                  </span>
+                </figure>
+                <p class="vicetext">
+                  Внезапные перебои с питанием или ошибки в модуле управления
+                  могут приводить к «замораживанию» замка люка: контроллер
+                  просто не получает или не обрабатывает команду на
+                  разблокировку. Иногда помогает полная перезагрузка питания, в
+                  иных случаях требуется диагностика и ремонт электронной части
+                  в сервисном центре.
+                </p>
+              </div>
+            </section>
+            <section id="5" class="page2-fiveproblem2">
+              <div class="page2-container25 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">
+                  5. Механическая поломка замка или ручки.
+                </h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page2-icon34"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page2-container26">
+                <p class="vicetext">
+                  Износ или поломка механики замка, сломанная ручка или
+                  повреждённый фиксатор — частая причина невозможности открытия
+                  люка. При такой неисправности замок может не фиксироваться или
+                  проворачиваться «в холостую», и потребуется замена механизма
+                  или ручки: это уже профильная работа для мастера.
+                </p>
+              </div>
+            </section>
+            <section class="page2-better-call-master">
+              <svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon36"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon38"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon40"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page2-icon42"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page2-icon44"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page2-icon46"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page2-icon48"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page2-icon50"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+              <h2 class="page2-text34">Когда вызывать мастера?</h2>
+              <p class="page2-text35">
+                <span class="page2-text36">
+                  Если вы выполнили все рекомендации, но проблема осталась —
+                  обратитесь в сервис
+                </span>
+                <span class="page2-text37">"</span>
+                <span class="page2-text38">РемCтирМаш</span>
+                <span class="page2-text39">"</span>
+                <span class="page2-text40">.</span>
+                <span class="page2-text41">
+                  Наши специалисты быстро приедут к вам в желаемое вами время в
+                  любой район Одессы и выполнят качественную диагностику и
+                  ремонт.
+                </span>
+              </p>
+              <svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page2-icon52"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+              <strong class="page2-text42">Работаем без выходных</strong>
+              <div class="page2-container27">
+                <div class="page2-container28">
+                  <div class="page2-container29">
+                    <img
+                      alt="image"
+                      src="public/image%203823106.svg"
+                      class="page2-image2"
+                    />
+                    <strong class="page2-text43">+38 (048) 253-23-23</strong>
+                  </div>
+                  <div class="page2-container30">
+                    <img
+                      alt="image"
+                      src="public/image%203823107.svg"
+                      class="page2-image3"
+                    />
+                    <strong class="page2-text44">+38 (048) 123-35-21</strong>
+                  </div>
+                </div>
+                <button type="button" class="page2-button button">
+                  Перезвоните мне
+                </button>
+              </div>
+            </section>
+            <div class="page2-container31">
+              <div class="page2-container32">
+                <div class="page2-container33">
+                  <svg
+                    width="1024"
+                    height="1024"
+                    viewBox="0 0 1024 1024"
+                    class="page2-icon54"
+                  >
+                    <path
+                      d="M19 468L471 19q19-19 45.5-19T562 19l92 91q19 19 19 45.5T654 201L468 385h492q27 0 45.5 18.5T1024 449v128q0 26-18.5 45T960 641H467l187 185q19 18 19 45t-19 45l-92 91q-19 19-45.5 19t-45.5-19L19 559Q0 540 0 513.5T19 468"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page2-container34">
+                  <h4 class="page2-text45">Предидущая</h4>
+                  <span class="page2-text46">
+                    Стиральная машина не крутит барабан
+                  </span>
+                </div>
+              </div>
+              <div class="page2-container35">
+                <div class="page2-container36">
+                  <svg
+                    width="1024"
+                    height="1024"
+                    viewBox="0 0 1024 1024"
+                    class="page2-icon56"
+                  >
+                    <path
+                      d="m1005 558l-452 448q-19 19-45.5 19t-45.5-19l-92-91q-19-18-19-45t19-45l186-184H64q-27 0-45.5-19T0 577V449q0-27 18.5-45.5T64 385h493L370 200q-19-19-19-45.5t19-45.5l92-91q19-18 45.5-18T553 18l452 449q19 19 19 45.5t-19 45.5"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page2-container37">
+                  <h4 class="page2-text47">Следующая</h4>
+                  <span class="page2-text48">
+                    Стиральная машина не нагревает воду
+                  </span>
+                </div>
+              </div>
+            </div>
+            <svg
+              width="330"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20"
+              viewBox="0 0 330 20"
+              preserveAspectRatio="none"
+              class="page2-icon58"
+            >
+              <path
+                d="M0 10 H330"
+                fill="none"
+                stroke="#000000"
+                stroke-width="0.5"
+                vector-effect="non-scaling-stroke"
+                stroke-dasharray="11 11"
+              ></path>
+            </svg>
+            <div class="page2-container38">
+              <h4 class="page2-text49">
+                <span>Другие статьи</span>
+                <br />
+              </h4>
+            </div>
+            <div class="page2-container39">
+              <div class="page2-container40">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823145-200h.png"
+                  class="page2-image38230321"
+                />
+                <span class="page2-text52">
+                  Как избавиться от жирных пятен на одежде в домашних условиях?
+                </span>
+              </div>
+              <div class="page2-container41">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823146-200h.png"
+                  class="page2-image38230322"
+                />
+                <span class="page2-text53">
+                  Как удалить пятна крови с одежды без следов?
+                </span>
+              </div>
+              <div class="page2-container42">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823147-200h.png"
+                  class="page2-image38230323"
+                />
+                <span class="page2-text54">
+                  Как самостоятельно удалить жвачку с одежды?
+                </span>
+              </div>
+              <div class="page2-container43">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823144-200h.png"
+                  class="page2-image38230324"
+                />
+                <span class="page2-text55">
+                  Как правильно стирать пуховик в автоматической стиральной
+                  машине?
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="page2-dops-info">
+            <section class="page2-frame1299">
+              <span class="page2-text56">Вам будет интересно:</span>
+              <div class="page2-frame12981">
+                <span class="page2-text57">
+                  Ошибки, которые приводят к дорогостоящему ремонту (и как их
+                  избежать)
+                </span>
+                <div class="page2-container44"></div>
+              </div>
+              <div class="page2-frame12982">
+                <span class="page2-text58">
+                  Как продлить жизнь машине на 3–5 лет — простые привычки,
+                  которые сэкономят деньги
+                </span>
+                <div class="page2-container45"></div>
+              </div>
+              <div class="page2-frame12983">
+                <span class="page2-text59">
+                  Почему стиралка воняет — 7 быстрых причин и что сделать прямо
+                  сейчас
+                </span>
+                <div class="page2-container46"></div>
+              </div>
+              <div class="page2-frame12984">
+                <span class="page2-text60">
+                  Как сэкономить электричество и воду — реальные настройки и
+                  лайфхаки
+                </span>
+                <div class="page2-container47"></div>
+              </div>
+              <div class="page2-frame12985">
+                <span class="page2-text61">
+                  Как безопасно перевозить и хранить стиральную машину
+                </span>
+                <div class="page2-container48"></div>
+              </div>
+              <div class="page2-frame12986">
+                <span class="page2-text62">
+                  Мифы о стиралках: что правда, а что — вымысел?
+                </span>
+                <div class="page2-container49"></div>
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
