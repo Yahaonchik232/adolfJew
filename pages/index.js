@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -9,6 +9,12 @@ import Blue1 from '../components/blue1'
 
 const Frame1196 = (props) => {
   const translate = useTranslations()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
     <>
       <main className="frame1196-container100">
@@ -38,11 +44,14 @@ const Frame1196 = (props) => {
               src="/ICONS/dla%20hedera%20trubka.svg"
               className="frame1196-image11"
             />
-            <img
-              alt="image"
-              src="/ICONS/image%203823196.svg"
-              className="frame1196-image12"
-            />
+            <div
+              className="frame1196-burger-menu"
+              onClick={toggleMenu}
+            >
+              <div className="frame1196-burger-line"></div>
+              <div className="frame1196-burger-line"></div>
+              <div className="frame1196-burger-line"></div>
+            </div>
           </div>
           <div className="frame1196-obshiy">
             <div className="frame1196-korobki">
@@ -185,6 +194,26 @@ const Frame1196 = (props) => {
             </div>
           </div>
         </header>
+
+        {/* Боковое меню */}
+        <div className={`frame1196-sidebar ${isMenuOpen ? 'frame1196-sidebar-open' : ''}`}>
+          <div className="frame1196-sidebar-overlay" onClick={toggleMenu}></div>
+          <div className="frame1196-sidebar-content">
+            <div className="frame1196-sidebar-header">
+              <button className="frame1196-sidebar-close" onClick={toggleMenu}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 6L6 18M6 6L18 18" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+              </button>
+            </div>
+            <nav className="frame1196-sidebar-nav">
+              <a href="#" className="frame1196-sidebar-link">ГЛАВНАЯ</a>
+              <a href="#" className="frame1196-sidebar-link">ВЫКУП Б/У МАШИН</a>
+              <a href="#" className="frame1196-sidebar-link">СТАТЬИ</a>
+            </nav>
+          </div>
+        </div>
+
         <section className="frame1196-container111">
           <div className="frame1196-container112">
             <h1 className="frame1196-text108">
@@ -202,7 +231,7 @@ const Frame1196 = (props) => {
             </button>
           </div>
           <article className="frame1196-cards">
-            <div className="frame1196-container113">
+            <a href="/1/NE SLIVAET VODU.html" className="frame1196-container113">
               <h3 className="frame1196-text112">
                 Стиральная машина не сливает воду
               </h3>
@@ -225,8 +254,8 @@ const Frame1196 = (props) => {
                 loading="eager"
                 className="frame1196-image15"
               />
-            </div>
-            <div className="frame1196-container114">
+            </a>
+            <a href="/1/NE GREET VODU.html" className="frame1196-container114">
               <h3 className="frame1196-text113">
                 Стиральная машина не греет воду
               </h3>
@@ -249,8 +278,8 @@ const Frame1196 = (props) => {
                 loading="eager"
                 className="frame1196-image16"
               />
-            </div>
-            <div className="frame1196-container115">
+            </a>
+            <a href="/1/PROTEKAET.html" className="frame1196-container115">
               <h3 className="frame1196-text114">Стиральная машина протекает</h3>
               <div className="frame1196-arrow12">
                 <svg
@@ -266,15 +295,15 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина протекает"
+                alt="Стиральная машин�� протекает"
                 src="/problems 2/31-300h.webp"
                 loading="eager"
                 className="frame1196-image17"
               />
-            </div>
-            <div className="frame1196-container116">
+            </a>
+            <a href="/2/SILNOSHUMIT.html" className="frame1196-container116">
               <h3 className="frame1196-text115">
-                Стиральная машина шумит при отжиме
+                Стиральная маш��на шумит при отжиме
               </h3>
               <div className="frame1196-arrow13">
                 <svg
@@ -295,10 +324,10 @@ const Frame1196 = (props) => {
                 loading="eager"
                 className="frame1196-image18"
               />
-            </div>
-            <div className="frame1196-container117">
+            </a>
+            <a href="/2/NE VKLUCHAETSA.html" className="frame1196-container117">
               <h3 className="frame1196-text116">
-                Стиральная машина не включается
+                Стиральная машина не включ��ется
               </h3>
               <div className="frame1196-arrow14">
                 <svg
@@ -319,8 +348,8 @@ const Frame1196 = (props) => {
                 loading="eager"
                 className="frame1196-image19"
               />
-            </div>
-            <div className="frame1196-container118">
+            </a>
+            <a href="/2/ZAVISAET NA PROGRAMME.html" className="frame1196-container118">
               <h3 className="frame1196-text117">
                 Стиральная машина зависает на программе
               </h3>
@@ -338,13 +367,13 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная машина зависает на п��ограмме"
+                alt="Стиральная машина ��ависает на программе"
                 src="/problems 2/61-300h.webp"
                 loading="eager"
                 className="frame1196-image20"
               />
-            </div>
-            <div className="frame1196-container119">
+            </a>
+            <a href="/3/NE OTJIMAET.html" className="frame1196-container119">
               <h3 className="frame1196-text118">
                 Стиральная машина не отжимает
               </h3>
@@ -367,10 +396,10 @@ const Frame1196 = (props) => {
                 loading="eager"
                 className="frame1196-image21"
               />
-            </div>
-            <div className="frame1196-container120">
+            </a>
+            <a href="/3/NE NABIRAET VODU.html" className="frame1196-container120">
               <h3 className="frame1196-text119">
-                Стиральная машина не набирает воду
+                Стиральная машина не набир��ет воду
               </h3>
               <div className="frame1196-arrow17">
                 <svg
@@ -386,13 +415,13 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Стиральная м��шина не набирает воду"
+                alt="Стиральная машина не набирает воду"
                 src="/problems/8-300h.webp"
                 loading="eager"
                 className="frame1196-image22"
               />
-            </div>
-            <div className="frame1196-container121">
+            </a>
+            <a href="/3/NE OTKRIVAETSA DVERCA.html" className="frame1196-container121">
               <h3 className="frame1196-text120">
                 У стиральной машины не открывается дверца
               </h3>
@@ -410,15 +439,15 @@ const Frame1196 = (props) => {
                 </svg>
               </div>
               <img
-                alt="Не открывается дверца стираль��ой машины"
+                alt="Не открывается дверца стиральной машины"
                 src="/problems 2/91-300h.webp"
                 loading="eager"
                 className="frame1196-image23"
               />
-            </div>
-            <div className="frame1196-container122">
+            </a>
+            <a href="/4/NE KRUTIT BARABAN.html" className="frame1196-container122">
               <h3 className="frame1196-text121">
-                Сти��альная машина не крутит барабан
+                Стиральная машина не крутит барабан
               </h3>
               <div className="frame1196-arrow19">
                 <svg
@@ -439,7 +468,7 @@ const Frame1196 = (props) => {
                 loading="eager"
                 className="frame1196-image24"
               />
-            </div>
+            </a>
           </article>
         </section>
         <section className="frame1196-container123">
@@ -449,7 +478,7 @@ const Frame1196 = (props) => {
             <span className="frame1196-text125"></span>
             <span className="frame1196-text126">
               мы заботимся о надёжной работе вашей техники во всех уголках
-              Одессы.
+              Од��ссы.
             </span>
             <br className="frame1196-text127" />
             <span className="frame1196-text128">
@@ -1812,7 +1841,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Beko в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных ��ашин Beko в Одессе - профессиональный сервис"
                   src="/brands/beko-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image33"
@@ -1820,7 +1849,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Bosch в Одессе - профессиональный сервис"
+                  alt="Рем��нт стиральных машин Bosch в Одессе - профессион��льный сервис"
                   src="/brands/bosch-logo%202-200h.webp"
                   loading="eager"
                   className="frame1196-image34"
@@ -1844,7 +1873,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Gorenje в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Gorenje в Одессе - п��офессиональный ��ервис"
                   src="/brands/gorenje-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image37"
@@ -1876,7 +1905,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Beko в Одессе - профессиональный сервис"
+                  alt="��емонт стиральных машин Beko в Одессе - профессиональный сервис"
                   src="/brands/image%203823127-200h.webp"
                   loading="eager"
                   className="frame1196-image41"
@@ -1884,7 +1913,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Aeg в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральны�� машин Aeg в Одессе - профессиональный сервис"
                   src="/brands/image%203823128-200h.webp"
                   loading="eager"
                   className="frame1196-image42"
@@ -1900,7 +1929,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Indesit в Одессе - профессиональный сервис"
+                  alt="Ремонт стир��льных машин Indesit в Одессе - профе��сиональный сервис"
                   src="/brands/image%203823130-200h.webp"
                   loading="eager"
                   className="frame1196-image44"
@@ -1924,7 +1953,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <img
-                  alt="Ремонт стиральных машин Whirlpool в Одессе - профессиональный сервис"
+                  alt="Ремонт стиральных машин Whirlpool в Одессе - профессио��альный сервис"
                   src="/brands/whirlpool-logo%201-200h.webp"
                   loading="eager"
                   className="frame1196-image47"
@@ -3169,7 +3198,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container189">
               <div className="frame1196-container190">
                 <figcaption className="frame1196-text231">
-                  Замена крестовины барабана на Miele
+                  Зам��на крестовины бараба��а на Miele
                 </figcaption>
               </div>
             </div>
@@ -3197,7 +3226,7 @@ to {transform: translateX(-2620px);}}
             <div className="frame1196-container197">
               <div className="frame1196-container198">
                 <figcaption className="frame1196-text235">
-                  Установка ТЭНа и демпферов в машине Whirlpool
+                  Установка ТЭНа и ��емпферов в машине Whirlpool
                 </figcaption>
               </div>
             </div>
@@ -3825,7 +3854,7 @@ to {transform: translateX(-2620px);}}
             />
             <p className="frame1196-text276">
               Я долбоеб. я не могу жить без стиралки, потому что когда она
-              сломана я не могу плакать на взрыд во время отжима.
+              сломана я ��е могу плакать на взрыд во время отжима.
             </p>
             <svg
               width="330"
@@ -3975,11 +4004,11 @@ to {transform: translateX(-2620px);}}
               className="frame1196-frame10702"
             />
             <p className="frame1196-text278">
-              &quot;Я считаю это победа над стиральной машиной, которой 12
+              &quot;Я считаю это победа над стиральной машино��, которой 12
               лет))  Очень круто!! Благодарю!! Она пала в руки мастера и
-              отдалась ему полностью, а не стала брыкаться. не знаю, что он там
+              отдалась ему полностью, а н�� стала брыкаться. не знаю, что он там
               с ней делал, но сейчас она как шелковая стирает мой ситцевое
-              кружевное белье&lt;3&quot;
+              кружевно�� белье&lt;3&quot;
             </p>
             <svg
               width="330"
@@ -8929,7 +8958,16 @@ to {transform: translateX(-2620px);}}
             z-index: -1;
             position: absolute;
           }
-          @media (max-width: 991px) {
+
+          /* Убираем margin-bottom у блока с заголовком и кнопкой до 1618px */
+          @media (max-width: 1618px) {
+            .frame1196-container112 {
+              margin-bottom: 0px;
+            }
+          }
+
+          /* Отдельный брейкпоинт для хедера */
+          @media (max-width: 1525px) {
             .frame1196-container103 {
               gap: var(--dl-layout-space-halfunit);
               height: 42px;
@@ -8954,6 +8992,9 @@ to {transform: translateX(-2620px);}}
             .frame1196-obshiy {
               display: none;
             }
+          }
+
+          @media (max-width: 991px) {
             .frame1196-container111 {
               background-size: cover;
               background-repeat: no-repeat;
@@ -11782,6 +11823,141 @@ to {transform: translateX(-2620px);}}
               min-width: auto;
               margin-top: 0px;
             }
+          }
+
+          /* Стили для бургер-меню */
+          .frame1196-burger-menu {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            cursor: pointer;
+            padding: 5px;
+          }
+
+          .frame1196-burger-line {
+            width: 100%;
+            height: 3px;
+            background-color: white;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+          }
+
+          /* Стили для боковой панели */
+          .frame1196-sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1000;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            opacity: 0;
+          }
+
+          .frame1196-sidebar-open {
+            pointer-events: all;
+            opacity: 1;
+          }
+
+          .frame1196-sidebar-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+          }
+
+          .frame1196-sidebar-content {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100%;
+            background-color: #232020;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+          }
+
+          .frame1196-sidebar-open .frame1196-sidebar-content {
+            transform: translateX(0);
+          }
+
+          .frame1196-sidebar-header {
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          }
+
+          .frame1196-sidebar-close {
+            background: none;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .frame1196-sidebar-nav {
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+          }
+
+          .frame1196-sidebar-link {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            padding: 15px 20px;
+            border-radius: 8px;
+            background-color: rgba(46, 51, 55, 0.41);
+            text-align: center;
+            transition: background-color 0.3s ease;
+          }
+
+          .frame1196-sidebar-link:hover {
+            background-color: #87ceeb;
+          }
+
+          /* Стили для ссылок-карточек */
+          .frame1196-container113,
+          .frame1196-container114,
+          .frame1196-container115,
+          .frame1196-container116,
+          .frame1196-container117,
+          .frame1196-container118,
+          .frame1196-container119,
+          .frame1196-container120,
+          .frame1196-container121,
+          .frame1196-container122 {
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+          }
+
+          .frame1196-container113:hover,
+          .frame1196-container114:hover,
+          .frame1196-container115:hover,
+          .frame1196-container116:hover,
+          .frame1196-container117:hover,
+          .frame1196-container118:hover,
+          .frame1196-container119:hover,
+          .frame1196-container120:hover,
+          .frame1196-container121:hover,
+          .frame1196-container122:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 4px 15px 0px rgba(175, 160, 115, 0.4);
           }
         `}
       </style>
