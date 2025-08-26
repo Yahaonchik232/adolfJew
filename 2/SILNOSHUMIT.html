@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pesky Trusty Pony</title>
+    <meta property="og:title" content="Pesky Trusty Pony" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="page-container10">
+        <header class="page-header"></header>
+        <main class="page-main">
+          <div class="page-left-main-box">
+            <div class="page-headertextwashermachine">
+              <img
+                alt="image"
+                src="public/group%20385-200h.png"
+                class="page-image1"
+              />
+              <h1 class="page-text10">
+                <span class="page-text11">
+                  Стиральная машина сильно шумит —
+                </span>
+                <span class="page-text12"></span>
+                <span class="page-text13">что делать?</span>
+              </h1>
+            </div>
+            <section class="page-container11">
+              <svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon10"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon12"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon14"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon16"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle>
+              </svg>
+              <strong class="page-text14">
+                <span>Основные причины сильного шума:</span>
+                <br />
+              </strong>
+              <ul class="page-ul list">
+                <li class="page-li1 list-item">
+                  <img
+                    alt="image"
+                    src="public/vector.svg"
+                    class="page-image2"
+                  />
+                  <a href="#zasor" class="page-link1">
+                    Неправильная подготовка и установка
+                  </a>
+                </li>
+                <li class="page-li2 list-item">
+                  <img
+                    src="public/external/vector8669-r6fr.svg"
+                    alt="Vector8669"
+                    class="page-vector1"
+                  />
+                  <a href="#zasor" class="page-link2 ge">
+                    1. Транспортировочные болты не сняты
+                  </a>
+                </li>
+                <li class="page-li3 list-item">
+                  <img
+                    src="public/external/vector8669-r6fr.svg"
+                    alt="Vector8669"
+                    class="page-vector2"
+                  />
+                  <span class="page-text17 ge">
+                    2. Неровный или скользкий пол
+                  </span>
+                </li>
+                <li class="page-li4 list-item">
+                  <img
+                    alt="image"
+                    src="public/vector.svg"
+                    class="page-image3"
+                  />
+                  <a href="#electrick" class="page-link3">
+                    Износ и поломка деталей:
+                  </a>
+                </li>
+                <li class="page-li5 list-item">
+                  <img
+                    src="public/external/vector8669-r6fr.svg"
+                    alt="Vector8669"
+                    class="page-vector3"
+                  />
+                  <a href="#sliva" class="page-link4 ge">1. Амортизаторы</a>
+                </li>
+                <li class="page-li6 list-item">
+                  <img
+                    src="public/external/vector8669-r6fr.svg"
+                    alt="Vector8669"
+                    class="page-vector4"
+                  />
+                  <a href="#electrick" class="page-link5 ge">
+                    2. Пружины подвески.
+                  </a>
+                </li>
+                <li class="page-li7 list-item">
+                  <img
+                    src="public/external/vector8669-r6fr.svg"
+                    alt="Vector8669"
+                    class="page-vector5"
+                  />
+                  <a href="#patrubok" class="page-link6">3. Противовесы</a>
+                </li>
+                <li class="page-li8 list-item">
+                  <img
+                    src="public/external/vector8669-r6fr.svg"
+                    alt="Vector8669"
+                    class="page-vector6"
+                  />
+                  <a href="#shlanga" class="page-link7">
+                    4. Подшипники и сальник
+                  </a>
+                </li>
+              </ul>
+              <svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page-icon18"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page-icon20"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page-icon22"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page-icon24"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+            </section>
+            <div class="page-container12">
+              <h2 class="page-text18">
+                <span>Неправильная подготовка и установка:</span>
+                <br />
+              </h2>
+            </div>
+            <section id="zasor" class="page-firstproblem1">
+              <div class="page-container13"></div>
+              <div class="page-container14">
+                <figure class="page-container15">
+                  <img
+                    alt="Засор сливного фильтра"
+                    src="public/4/image%2038231541-900w.webp"
+                    loading="eager"
+                    class="page-image38230521"
+                  />
+                  <span class="page-text21">Транспортировочные болты</span>
+                </figure>
+                <p class="vicetext">
+                  При первой установке новой стиральной машины многие удивляются
+                  сильной вибрации и шуму во время работы. Чаще всего это
+                  связано с тем, что остаются установочные транспортировочные
+                  болты, фиксирующие барабан для безопасной перевозки. Если их
+                  не снять до запуска, барабан не сможет свободно вращаться, что
+                  вызывает громкий грохот, подпрыгивание машины и риск
+                  повреждения деталей. Чтобы техника работала корректно и
+                  служила долго, обязательно выкрутите все транспортировочные
+                  болты и установите защитные заглушки.
+                </p>
+              </div>
+            </section>
+            <section id="zasor" class="page-firstproblem2">
+              <div class="page-container16"></div>
+              <div class="page-container17">
+                <figure class="page-container18">
+                  <img
+                    alt="Засор сливного фильтра"
+                    src="public/4/image%203823156-900w.webp"
+                    loading="lazy"
+                    class="page-image38230522"
+                  />
+                </figure>
+                <p class="vicetext">
+                  Стиральная машина очень требовательна к прочности и
+                  горизонтальности места установки. Если пол под ней не идеально
+                  ровный или слишком мягкий (например, старые деревянные доски),
+                  любая вибрация приведёт к дополнительному «прыжку» техники.
+                  Аналогично, установка на очень гладком покрытии (плитке или
+                  линолеуме) без фиксации позволит машинке подскальзывать.Совет:
+                  Проверьте положение машины уровнем – все ножки должны стоять
+                  устойчиво. Слегка раскачайте прибор руками, определите, какая
+                  опора «гуляет» больше, и подкрутите её гайкой против часовой
+                  стрелки до упора. Можно привлечь помощника или приподнять
+                  стиралку на бок, чтобы повернуть ножку удобнее. После этого
+                  ещё раз проконтролируйте ровность с уровнем. Для
+                  дополнительной устойчивости и защиты пола рекомендуется
+                  установить резиновые антискользящие накладки или
+                  антивибрационные подставки под ножки. Они гасить часть
+                  вибрации и не позволяют машине «ездить» по комнате.
+                </p>
+              </div>
+            </section>
+            <div class="page-container19">
+              <h2 class="page-text24">
+                <span>Износ и поломка деталей</span>
+                <br />
+              </h2>
+            </div>
+            <section id="sliva" class="page-thirdproblem">
+              <div class="page-container20 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">1. Амортизаторы</h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page-icon26"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page-container21">
+                <figure class="page-container22">
+                  <img
+                    alt="неисправность сливного насоса стиральной машины"
+                    src="public/4/image%203823157-900w.webp"
+                    loading="lazy"
+                    class="page-image38230523"
+                  />
+                  <span class="page-text28">Амортизаторы</span>
+                </figure>
+                <p class="vicetext">
+                  Это пары демпферов с поршнем внутри, которые гасят колебания
+                  бака. Со старением уплотнители рассыхаются, поршень начинает
+                  свободно «гулять» в цилиндре и уже не гасит удары. Стиралка
+                  при этом будет «скакать» и издавать металлический стук. Если
+                  затронуты амортизаторы, их меняют обе сразу (иначе
+                  неравномерное гашение усугубит проблему). Замена обычно
+                  выполняется снизу, после переворота корпуса.
+                </p>
+              </div>
+            </section>
+            <section id="electrick" class="page-fourproblem">
+              <div class="page-container23 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">2. Пружины подвески</h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page-icon28"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page-container24">
+                <p class="page-text31 vicemaintext vicetext">
+                  Электронная плата (модуль управления) посылает команды насосу
+                  при окончании цикла стирки. Если плата неисправна или
+                  «зависает», она может не запустить сливной насос и не
+                  разблокировать люк. При подозрении на сбой электроники нужна
+                  диагностика специалиста: плату обычно вынимают для
+                  тестирования. Возможные причины – перегоревшие микросхемы,
+                  сбой прошивки или окисление контактов. Это самая сложная
+                  поломка, которую сложно устранить самостоятельно.
+                </p>
+              </div>
+            </section>
+            <section id="patrubok" class="page-fiveproblem">
+              <div class="page-container25 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">3. Противовесы</h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page-icon30"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page-container26">
+                <figure class="page-container27">
+                  <img
+                    alt="сливной патрубок"
+                    src="public/4/image%203823158-900w.webp"
+                    loading="lazy"
+                    class="page-image38230524"
+                  />
+                  <span class="page-text33">Противовес</span>
+                </figure>
+                <p class="page-text34 vicetext">
+                  Неравномерная или слишком большая загрузка – частая причина
+                  шума. Если вы кладёте в барабан большой комок вещей только с
+                  одной стороны, на отжиме машинка будет сильно болтаться.
+                  Распределяйте бельё равномерно по барабану. И не перегружайте
+                  стиралку по массе: если вещей много, попробуйте разделить
+                  стирку на две части или снизить обороты при отжиме. При
+                  перегрузке «скрипят» амортизаторы и барабан бьётся о корпус
+                  из‑за избыточного веса.
+                </p>
+              </div>
+            </section>
+            <section id="shlanga" class="page-sixproblem">
+              <div class="page-container28 zagolovkiskorobkoy">
+                <h3 class="zagolovki2">4. Подшипники и сальник</h3>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page-icon32"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </div>
+              <div class="page-container29">
+                <p class="vicetext">
+                  В барабан встроен подшипниковый узел – обычно два
+                  шарикоподшипника, закрытые резиновым уплотнителем (сальником).
+                  При длительной эксплуатации сальник протирается, внутрь
+                  попадает вода, смазка вымывается и подшипники ржавеют. Это
+                  вызывает люфт барабана и неравномерное вращение. В итоге при
+                  отжиме машина может сильно шуметь и «прыгать», а иногда
+                  барабан клинит. Признаки износа подшипников – топот под
+                  машиной, подтеки ржавой воды и разболтанность бака при ручном
+                  движении. Починка требует замены подшипников (и сальника) – в
+                  большинстве моделей это комплексная работа, выполняемая в
+                  сервисе.
+                </p>
+              </div>
+            </section>
+            <section class="page-better-call-master">
+              <svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon34"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon36"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon38"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                height="17"
+                viewBox="0 0 10 20"
+                preserveAspectRatio="none"
+                class="page-icon40"
+              >
+                <circle
+                  r="3.75"
+                  cx="5"
+                  cy="10"
+                  fill="#606060"
+                  vector-effect="non-scaling-stroke"
+                ></circle></svg
+              ><svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page-icon42"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page-icon44"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page-icon46"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path></svg
+              ><svg
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                height="110"
+                viewBox="0 0 20 110"
+                preserveAspectRatio="none"
+                class="page-icon48"
+              >
+                <path
+                  d="M10 0 V110"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+              <h2 class="page-text37">Когда вызывать мастера?</h2>
+              <p class="page-text38">
+                <span class="page-text39">
+                  Если вы выполнили все рекомендации, но проблема осталась —
+                  обратитесь в сервис
+                </span>
+                <span class="page-text40">"</span>
+                <span class="page-text41">РемCтирМаш</span>
+                <span class="page-text42">"</span>
+                <span class="page-text43">.</span>
+                <span class="page-text44">
+                  Наши специалисты быстро приедут к вам в желаемое вами время в
+                  любой район Одессы и выполнят качественную диагностику и
+                  ремонт.
+                </span>
+              </p>
+              <svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page-icon50"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+              <strong class="page-text45">Работаем без выходных</strong>
+              <div class="page-container30">
+                <div class="page-container31">
+                  <div class="page-container32">
+                    <img
+                      alt="image"
+                      src="public/image%203823106.svg"
+                      class="page-image4"
+                    />
+                    <strong class="page-text46">+38 (048) 253-23-23</strong>
+                  </div>
+                  <div class="page-container33">
+                    <img
+                      alt="image"
+                      src="public/image%203823107.svg"
+                      class="page-image5"
+                    />
+                    <strong class="page-text47">+38 (048) 123-35-21</strong>
+                  </div>
+                </div>
+                <button type="button" class="page-button button">
+                  Перезвоните мне
+                </button>
+              </div>
+            </section>
+            <div class="page-container34">
+              <div class="page-container35">
+                <div class="page-container36">
+                  <svg
+                    width="1024"
+                    height="1024"
+                    viewBox="0 0 1024 1024"
+                    class="page-icon52"
+                  >
+                    <path
+                      d="M19 468L471 19q19-19 45.5-19T562 19l92 91q19 19 19 45.5T654 201L468 385h492q27 0 45.5 18.5T1024 449v128q0 26-18.5 45T960 641H467l187 185q19 18 19 45t-19 45l-92 91q-19 19-45.5 19t-45.5-19L19 559Q0 540 0 513.5T19 468"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page-container37">
+                  <h4 class="page-text48">Предидущая</h4>
+                  <span class="page-text49">
+                    Стиральная машина не крутит барабан
+                  </span>
+                </div>
+              </div>
+              <div class="page-container38">
+                <div class="page-container39">
+                  <svg
+                    width="1024"
+                    height="1024"
+                    viewBox="0 0 1024 1024"
+                    class="page-icon54"
+                  >
+                    <path
+                      d="m1005 558l-452 448q-19 19-45.5 19t-45.5-19l-92-91q-19-18-19-45t19-45l186-184H64q-27 0-45.5-19T0 577V449q0-27 18.5-45.5T64 385h493L370 200q-19-19-19-45.5t19-45.5l92-91q19-18 45.5-18T553 18l452 449q19 19 19 45.5t-19 45.5"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page-container40">
+                  <h4 class="page-text50">Следующая</h4>
+                  <span class="page-text51">
+                    Стиральная машина не нагревает воду
+                  </span>
+                </div>
+              </div>
+            </div>
+            <svg
+              width="330"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20"
+              viewBox="0 0 330 20"
+              preserveAspectRatio="none"
+              class="page-icon56"
+            >
+              <path
+                d="M0 10 H330"
+                fill="none"
+                stroke="#000000"
+                stroke-width="0.5"
+                vector-effect="non-scaling-stroke"
+                stroke-dasharray="11 11"
+              ></path>
+            </svg>
+            <div class="page-container41">
+              <h4 class="page-text52">
+                <span>Другие статьи</span>
+                <br />
+              </h4>
+            </div>
+            <div class="page-container42">
+              <div class="page-container43">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823145-200h.png"
+                  loading="lazy"
+                  class="page-image38230321"
+                />
+                <span class="page-text55">
+                  Как избавиться от жирных пятен на одежде в домашних условиях?
+                </span>
+              </div>
+              <div class="page-container44">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823146-200h.png"
+                  loading="lazy"
+                  class="page-image38230322"
+                />
+                <span class="page-text56">
+                  Как удалить пятна крови с одежды без следов?
+                </span>
+              </div>
+              <div class="page-container45">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823147-200h.png"
+                  loading="lazy"
+                  class="page-image38230323"
+                />
+                <span class="page-text57">
+                  Как самостоятельно удалить жвачку с одежды?
+                </span>
+              </div>
+              <div class="page-container46">
+                <img
+                  alt="image38230328104"
+                  src="public/100x100/image%203823144-200h.png"
+                  loading="lazy"
+                  class="page-image38230324"
+                />
+                <span class="page-text58">
+                  Как правильно стирать пуховик в автоматической стиральной
+                  машине?
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="page-dops-info">
+            <section class="page-frame1299">
+              <span class="page-text59">Вам будет интересно:</span>
+              <div class="page-frame12981">
+                <span class="page-text60">
+                  Ошибки, которые приводят к дорогостоящему ремонту (и как их
+                  избежать)
+                </span>
+                <div class="page-container47"></div>
+              </div>
+              <div class="page-frame12982">
+                <span class="page-text61">
+                  Как продлить жизнь машине на 3–5 лет — простые привычки,
+                  которые сэкономят деньги
+                </span>
+                <div class="page-container48"></div>
+              </div>
+              <div class="page-frame12983">
+                <span class="page-text62">
+                  Почему стиралка воняет — 7 быстрых причин и что сделать прямо
+                  сейчас
+                </span>
+                <div class="page-container49"></div>
+              </div>
+              <div class="page-frame12984">
+                <span class="page-text63">
+                  Как сэкономить электричество и воду — реальные настройки и
+                  лайфхаки
+                </span>
+                <div class="page-container50"></div>
+              </div>
+              <div class="page-frame12985">
+                <span class="page-text64">
+                  Как безопасно перевозить и хранить стиральную машину
+                </span>
+                <div class="page-container51"></div>
+              </div>
+              <div class="page-frame12986">
+                <span class="page-text65">
+                  Мифы о стиралках: что правда, а что — вымысел?
+                </span>
+                <div class="page-container52"></div>
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
