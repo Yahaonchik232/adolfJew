@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page1 - Pesky Trusty Pony</title>
+    <meta property="og:title" content="Page1 - Pesky Trusty Pony" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./page1.css" rel="stylesheet" />
+
+      <div class="page1-container10">
+        <div class="page1-container11">
+          <header class="page1-header"></header>
+          <div class="page1main">
+            <div class="page1-left-main-box">
+              <div class="page1-headertextwashermachine">
+                <img
+                  alt="image"
+                  src="public/group%20385-200h.png"
+                  class="page1-image1"
+                />
+                <h1 class="page1-text10">
+                  <span>
+                    Стиральная машина не сливает воду и не открывает люк —
+                  </span>
+                  <span class="page1-text12">что делать?</span>
+                </h1>
+              </div>
+              <section class="page1-container12">
+                <svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon10"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon12"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon14"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon16"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle>
+                </svg>
+                <strong class="page1-text13">
+                  <span>Основные причины отсутствия нагрева воды:</span>
+                  <br />
+                </strong>
+                <ul class="page1-ul list">
+                  <li class="page1-li1 list-item">
+                    <img
+                      alt="image"
+                      src="public/vector.svg"
+                      class="page1-image2"
+                    />
+                    <a href="#nagr element" class="page1-link1 ge">
+                      1. Неисправен нагревательный элемент (ТЭН)
+                    </a>
+                  </li>
+                  <li class="page1-li2 list-item">
+                    <img
+                      alt="image"
+                      src="public/vector.svg"
+                      class="page1-image3"
+                    />
+                    <a href="#termstat" class="page1-link2 ge">
+                      2. Сломан датчик температуры (термостат)
+                    </a>
+                  </li>
+                  <li class="page1-li3 list-item">
+                    <img
+                      alt="image"
+                      src="public/vector.svg"
+                      class="page1-image4"
+                    />
+                    <a href="#presostat" class="page1-link3 ge">
+                      3. Неисправен датчик уровня воды (прессостат)
+                    </a>
+                  </li>
+                  <li class="page1-li4 list-item">
+                    <img
+                      alt="image"
+                      src="public/vector.svg"
+                      class="page1-image5"
+                    />
+                    <a href="#electrick" class="page1-link4 ge">
+                      4. Повреждена электропроводка
+                    </a>
+                  </li>
+                  <li class="page1-li5 list-item">
+                    <img
+                      alt="image"
+                      src="public/vector.svg"
+                      class="page1-image6"
+                    />
+                    <a href="#modulprovodki" class="page1-link5 ge">
+                      5. Сбой или поломка модуля управления
+                    </a>
+                  </li>
+                  <li class="page1-li6 list-item">
+                    <img
+                      alt="image"
+                      src="public/vector.svg"
+                      class="page1-image7"
+                    />
+                    <a href="#neverniyrezhim" class="page1-link6 ge">
+                      6. Неверно выбран режим стирки
+                    </a>
+                  </li>
+                </ul>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon18"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path></svg
+                ><svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon20"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path></svg
+                ><svg
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="110"
+                  viewBox="0 0 20 110"
+                  preserveAspectRatio="none"
+                  class="page1-icon22"
+                >
+                  <path
+                    d="M10 0 V110"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path></svg
+                ><svg
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="110"
+                  viewBox="0 0 20 110"
+                  preserveAspectRatio="none"
+                  class="page1-icon24"
+                >
+                  <path
+                    d="M10 0 V110"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+              </section>
+              <div class="page1-container13">
+                <h2 class="page1-text16">
+                  Основные причины отсутствия нагрева воды:
+                </h2>
+              </div>
+              <section id="nagr element" class="page1-firstproblem">
+                <div class="page1-container14 zagolovkiskorobkoy">
+                  <h3 class="zagolovki2">1. Поломка ТЭНА.</h3>
+                  <svg
+                    width="330"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 330 20"
+                    preserveAspectRatio="none"
+                    class="page1-icon26"
+                  >
+                    <path
+                      d="M0 10 H330"
+                      fill="none"
+                      stroke="#000000"
+                      stroke-width="0.5"
+                      vector-effect="non-scaling-stroke"
+                      stroke-dasharray="11 11"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page1-container15">
+                  <figure class="page1-container16">
+                    <img
+                      alt="тэн стиральной машины"
+                      src="public/NE GREET/image%203823032-900w.webp"
+                      class="page1-image38230521"
+                    />
+                    <span class="page1-text18">Сгоревший ТЭН</span>
+                  </figure>
+                  <p class="vicetext">
+                    Чаще всего причина кроется в самом нагревательном элементе
+                    (ТЭНе). Накипь или остатки моющего средства, оседающие на
+                    ТЭНе, уменьшают его теплоотдачу и со временем приводят к
+                    перегоранию. Чтобы проверить ТЭН, используют мультиметр: у
+                    исправного сопротивление между выводами составляет около
+                    20–40 ОМ. Если измерение показывает обрыв или короткое
+                    замыкание, ТЭН однозначно нужно менять. Если же просто
+                    накопилась накипь, элемент вынимают и очищают механически
+                    (щёткой или абразивом) и раствором лимонной кислоты. После
+                    чистки проверяют нагрев повторно. Иными словами, при
+                    выявлении дефектов ТЭН заменяют новым. а при лёгких
+                    отложениях – очищают от налёта.
+                  </p>
+                </div>
+              </section>
+              <section id="termstat" class="page1-secondproblem">
+                <div class="page1-container17 zagolovkiskorobkoy">
+                  <h3 class="zagolovki2">
+                    2. Сломан датчик температуры (термостат)
+                  </h3>
+                  <svg
+                    width="330"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 330 20"
+                    preserveAspectRatio="none"
+                    class="page1-icon28"
+                  >
+                    <path
+                      d="M0 10 H330"
+                      fill="none"
+                      stroke="#000000"
+                      stroke-width="0.5"
+                      vector-effect="non-scaling-stroke"
+                      stroke-dasharray="11 11"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page1-container18">
+                  <figure class="page1-container19">
+                    <img
+                      alt="термостат"
+                      src="public/NE GREET/image%203823033-500w.webp"
+                      class="page1-image38230522"
+                    />
+                    <span class="page1-text21">Термостат</span>
+                  </figure>
+                  <p class="vicetext">
+                    Датчик температуры (термостат) следит за нагревом воды и при
+                    перегреве отключает ТЭН. Если термостат выходит из строя,
+                    питание на ТЭН не поступает, и вода остаётся холодной.
+                    Симптомы неисправности могут проявляться по-разному: внешние
+                    панели машины перегреваются, цикл стирки длится аномально
+                    долго или машина выдаёт ошибку по перегреву. Выяснить
+                    поломку помогает прозвонка: мультиметром проверяют
+                    сопротивление термостата в «холодном» состоянии (оно должно
+                    быть конечным, а при нагреве – расти). Если оказывается, что
+                    датчик не замыкает цепь при нагреве, его меняют на
+                    аналогичный.Исправный термостат просто заменяют – обычно это
+                    несложная операция, и после замены машина вновь начнёт греть
+                    воду нормальным образом.
+                  </p>
+                </div>
+              </section>
+              <section id="presostat" class="page1-thirdproblem">
+                <div class="page1-container20 zagolovkiskorobkoy">
+                  <h3 class="zagolovki2">
+                    3. Неисправен датчик уровня воды (прессостат)
+                  </h3>
+                  <svg
+                    width="330"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 330 20"
+                    preserveAspectRatio="none"
+                    class="page1-icon30"
+                  >
+                    <path
+                      d="M0 10 H330"
+                      fill="none"
+                      stroke="#000000"
+                      stroke-width="0.5"
+                      vector-effect="non-scaling-stroke"
+                      stroke-dasharray="11 11"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page1-container21">
+                  <figure class="page1-container22">
+                    <img
+                      alt="прессостат"
+                      src="public/NE GREET/image%2038230334-1500h.webp"
+                      class="page1-image38230523"
+                    />
+                    <span class="page1-text24">Прессостат</span>
+                  </figure>
+                  <p class="vicetext">
+                    Прессостат (датчик уровня воды) сообщает модулю управления о
+                    наполнении бака, и по сигналам датчика регулируется подача
+                    воды. Если прессостат забит или сломан, машина может не
+                    начать нагревать воду – она не «увидит» необходимый уровень,
+                    чтобы включить ТЭН. Для проверки открывают переднюю панель и
+                    визуально осматривают трубку к прессостату (обычно видно под
+                    панелью или около насоса) на засоры и перетяжки. Кроме того,
+                    прозванивают контакты датчика тестером. В большинстве
+                    случаев чистят внутреннюю трубку от грязи и мелкого мусора
+                    (например, нитей или монет). Если же датчик повреждён (нет
+                    реакции или неправильные показания), его заменяют новым
+                  </p>
+                </div>
+              </section>
+              <section id="electrick" class="page1-fourproblem">
+                <div class="page1-container23 zagolovkiskorobkoy">
+                  <h3 class="zagolovki2">4. Повреждена электропроводка</h3>
+                  <svg
+                    width="330"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 330 20"
+                    preserveAspectRatio="none"
+                    class="page1-icon32"
+                  >
+                    <path
+                      d="M0 10 H330"
+                      fill="none"
+                      stroke="#000000"
+                      stroke-width="0.5"
+                      vector-effect="non-scaling-stroke"
+                      stroke-dasharray="11 11"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page1-container24">
+                  <p class="vicetext">
+                    Часто бывает, что клеммы или провода, идущие к ТЭНу и
+                    датчикам, ослабевают или окисляются. Например, плохой
+                    контакт на клеммах ТЭНа приводит к тому, что элемент вообще
+                    не включается (или греется местно – проверяйте по
+                    почерневшей изоляции и оплавленным клеммам). Для диагностики
+                    отключают машину от сети и мультиметром прозванивают всю
+                    цепь питания ТЭНа и датчиков (исправный сигнал «должен
+                    быть», обрыв или короткое явно укажут на проблему).
+                    Визуально проверяют целостность проводов и коннекторов. При
+                    обнаружении плохого контакта или обрыва проводов провода
+                    меняют, а клеммы зачищают и плотно затягивают. После этого
+                    вновь проверяют нагрев – если проводка и вилка исправны, ТЭН
+                    снова начнёт греться.
+                  </p>
+                </div>
+              </section>
+              <section id="modulprovodki" class="page1-fiveproblem">
+                <div class="page1-container25 zagolovkiskorobkoy">
+                  <h3 class="zagolovki2">
+                    5. Сбой или поломка модуля управления
+                  </h3>
+                  <svg
+                    width="330"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 330 20"
+                    preserveAspectRatio="none"
+                    class="page1-icon34"
+                  >
+                    <path
+                      d="M0 10 H330"
+                      fill="none"
+                      stroke="#000000"
+                      stroke-width="0.5"
+                      vector-effect="non-scaling-stroke"
+                      stroke-dasharray="11 11"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page1-container26">
+                  <figure class="page1-container27">
+                    <img
+                      alt="модуль управления"
+                      src="public/image%203823045-900w.webp"
+                      class="page1-image38230524"
+                    />
+                    <span class="page1-text29">Модуль управления</span>
+                  </figure>
+                  <p class="vicetext">
+                    Электронный блок управления (ЭБУ) — это «мозг» машины. Если
+                    в нём выходят из строя силовые реле, повреждается плата или
+                    программируется ошибка, то команда на нагрев может просто не
+                    подаваться. Распознать такую неисправность самостоятельно
+                    сложно: чаще всего на дисплее появляется соответствующий
+                    код, либо машина не реагирует на любые настройки. Проверку и
+                    ремонт модуля обычно доверяют специалисту, однако ясно одно:
+                    при любой проблеме с платой подачу напряжения на ТЭН
+                    прекращают, и новая плата или ремонт старой полностью решают
+                    проблему. Самостоятельно можно только убедиться, что
+                    напряжение в розетке подаётся и модули питания целы; для
+                    сложного ремонта платы лучше пригласить мастера.
+                  </p>
+                </div>
+              </section>
+              <section id="neverniyrezhim" class="page1-sixproblem">
+                <div class="page1-container28 zagolovkiskorobkoy">
+                  <h3 class="zagolovki2">6. Неверно выбран режим стирки</h3>
+                  <svg
+                    width="330"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    viewBox="0 0 330 20"
+                    preserveAspectRatio="none"
+                    class="page1-icon36"
+                  >
+                    <path
+                      d="M0 10 H330"
+                      fill="none"
+                      stroke="#000000"
+                      stroke-width="0.5"
+                      vector-effect="non-scaling-stroke"
+                      stroke-dasharray="11 11"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="page1-container29">
+                  <p class="vicetext">
+                    Иногда причиной «холодной» стирки оказывается банальная
+                    ошибка в настройках. Если выставлен режим быстрой или
+                    энергосберегающей стирки без подогрева (или выбран
+                    минимальный температурный режим), машина просто не включит
+                    ТЭН. Например, регулятор температуры на панели должен
+                    соответствовать выбранной программе. Чтобы проверить,
+                    достаточно заново установить режим с высоким подогревом
+                    (40–60 °C). После корректировки настроек проблема исчезнет –
+                    функция нагрева будет работать как положено. Такой простой
+                    совет иногда спасает до обращения в сервис.
+                  </p>
+                </div>
+              </section>
+              <section class="page1-better-call-master">
+                <svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon38"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon40"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon42"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17"
+                  viewBox="0 0 10 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon44"
+                >
+                  <circle
+                    r="3.75"
+                    cx="5"
+                    cy="10"
+                    fill="#606060"
+                    vector-effect="non-scaling-stroke"
+                  ></circle></svg
+                ><svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon46"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path></svg
+                ><svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon48"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path></svg
+                ><svg
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="110"
+                  viewBox="0 0 20 110"
+                  preserveAspectRatio="none"
+                  class="page1-icon50"
+                >
+                  <path
+                    d="M10 0 V110"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path></svg
+                ><svg
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="110"
+                  viewBox="0 0 20 110"
+                  preserveAspectRatio="none"
+                  class="page1-icon52"
+                >
+                  <path
+                    d="M10 0 V110"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+                <h2 class="page1-text33">Когда вызывать мастера?</h2>
+                <p class="page1-text34">
+                  <span class="page1-text35">
+                    Если вы выполнили все рекомендации, но проблема осталась —
+                    обратитесь в сервис
+                  </span>
+                  <span class="page1-text36">"</span>
+                  <span class="page1-text37">РемCтирМаш</span>
+                  <span class="page1-text38">"</span>
+                  <span class="page1-text39">.</span>
+                  <span class="page1-text40">
+                    Наши специалисты быстро приедут к вам в желаемое вами время
+                    в любой район Одессы и выполнят качественную диагностику и
+                    ремонт.
+                  </span>
+                </p>
+                <svg
+                  width="330"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  class="page1-icon54"
+                >
+                  <path
+                    d="M0 10 H330"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="0.5"
+                    vector-effect="non-scaling-stroke"
+                    stroke-dasharray="11 11"
+                  ></path>
+                </svg>
+                <strong class="page1-text41">Работаем без выходных</strong>
+                <div class="page1-container30">
+                  <div class="page1-container31">
+                    <div class="page1-container32">
+                      <img
+                        alt="image"
+                        src="public/image%203823106.svg"
+                        class="page1-image8"
+                      />
+                      <strong class="page1-text42">+38 (048) 253-23-23</strong>
+                    </div>
+                    <div class="page1-container33">
+                      <img
+                        alt="image"
+                        src="public/image%203823107.svg"
+                        class="page1-image9"
+                      />
+                      <strong class="page1-text43">+38 (048) 123-35-21</strong>
+                    </div>
+                  </div>
+                  <button type="button" class="page1-button button">
+                    Перезвоните мне
+                  </button>
+                </div>
+              </section>
+              <div class="page1-container34">
+                <div class="page1-container35">
+                  <div class="page1-container36">
+                    <svg
+                      width="1024"
+                      height="1024"
+                      viewBox="0 0 1024 1024"
+                      class="page1-icon56"
+                    >
+                      <path
+                        d="M19 468L471 19q19-19 45.5-19T562 19l92 91q19 19 19 45.5T654 201L468 385h492q27 0 45.5 18.5T1024 449v128q0 26-18.5 45T960 641H467l187 185q19 18 19 45t-19 45l-92 91q-19 19-45.5 19t-45.5-19L19 559Q0 540 0 513.5T19 468"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="page1-container37">
+                    <h4 class="page1-text44">Предидущая</h4>
+                    <span class="page1-text45">
+                      Стиральная машина не крутит барабан
+                    </span>
+                  </div>
+                </div>
+                <div class="page1-container38">
+                  <div class="page1-container39">
+                    <svg
+                      width="1024"
+                      height="1024"
+                      viewBox="0 0 1024 1024"
+                      class="page1-icon58"
+                    >
+                      <path
+                        d="m1005 558l-452 448q-19 19-45.5 19t-45.5-19l-92-91q-19-18-19-45t19-45l186-184H64q-27 0-45.5-19T0 577V449q0-27 18.5-45.5T64 385h493L370 200q-19-19-19-45.5t19-45.5l92-91q19-18 45.5-18T553 18l452 449q19 19 19 45.5t-19 45.5"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="page1-container40">
+                    <h4 class="page1-text46">Следующая</h4>
+                    <span class="page1-text47">
+                      Стиральная машина не нагревает воду
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <svg
+                width="330"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                viewBox="0 0 330 20"
+                preserveAspectRatio="none"
+                class="page1-icon60"
+              >
+                <path
+                  d="M0 10 H330"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="0.5"
+                  vector-effect="non-scaling-stroke"
+                  stroke-dasharray="11 11"
+                ></path>
+              </svg>
+              <div class="page1-container41">
+                <h4 class="page1-text48">
+                  <span>Другие статьи</span>
+                  <br />
+                </h4>
+              </div>
+              <div class="page1-container42">
+                <div class="page1-container43">
+                  <img
+                    alt="image38230328104"
+                    src="public/100x100/image%203823145-200h.png"
+                    class="page1-image38230321"
+                  />
+                  <span class="page1-text51">
+                    Как избавиться от жирных пятен на одежде в домашних
+                    условиях?
+                  </span>
+                </div>
+                <div class="page1-container44">
+                  <img
+                    alt="image38230328104"
+                    src="public/100x100/image%203823146-200h.png"
+                    class="page1-image38230322"
+                  />
+                  <span class="page1-text52">
+                    Как удалить пятна крови с одежды без следов?
+                  </span>
+                </div>
+                <div class="page1-container45">
+                  <img
+                    alt="image38230328104"
+                    src="public/100x100/image%203823147-200h.png"
+                    class="page1-image38230323"
+                  />
+                  <span class="page1-text53">
+                    Как самостоятельно удалить жвачку с одежды?
+                  </span>
+                </div>
+                <div class="page1-container46">
+                  <img
+                    alt="image38230328104"
+                    src="public/100x100/image%203823144-200h.png"
+                    class="page1-image38230324"
+                  />
+                  <span class="page1-text54">
+                    Как правильно стирать пуховик в автоматической стиральной
+                    машине?
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="page1-dops-info">
+              <section class="page1-frame1299">
+                <span class="page1-text55">Вам будет интересно:</span>
+                <div class="page1-frame12981">
+                  <span class="page1-text56">
+                    Ошибки, которые приводят к дорогостоящему ремонту (и как их
+                    избежать)
+                  </span>
+                  <div class="page1-container47"></div>
+                </div>
+                <div class="page1-frame12982">
+                  <span class="page1-text57">
+                    Как продлить жизнь машине на 3–5 лет — простые привычки,
+                    которые сэкономят деньги
+                  </span>
+                  <div class="page1-container48"></div>
+                </div>
+                <div class="page1-frame12983">
+                  <span class="page1-text58">
+                    Почему стиралка воняет — 7 быстрых причин и что сделать
+                    прямо сейчас
+                  </span>
+                  <div class="page1-container49"></div>
+                </div>
+                <div class="page1-frame12984">
+                  <span class="page1-text59">
+                    Как сэкономить электричество и воду — реальные настройки и
+                    лайфхаки
+                  </span>
+                  <div class="page1-container50"></div>
+                </div>
+                <div class="page1-frame12985">
+                  <span class="page1-text60">
+                    Как безопасно перевозить и хранить стиральную машину
+                  </span>
+                  <div class="page1-container51"></div>
+                </div>
+                <div class="page1-frame12986">
+                  <span class="page1-text61">
+                    Мифы о стиралках: что правда, а что — вымысел?
+                  </span>
+                  <div class="page1-container52"></div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
